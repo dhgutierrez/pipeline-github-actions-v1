@@ -24,4 +24,4 @@ env:
         run: |
           terraform init
           teraform validate
-          terraform plan
+          terraform plan -auto-approve
